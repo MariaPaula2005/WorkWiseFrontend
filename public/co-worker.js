@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async function() {
     try {
         // Fetch user data from the server
-        const response = await fetch('/user/co-worker');
+        const response = await fetch('/user/profile');
         const userData = await response.json();
 
         // Fill out user fields

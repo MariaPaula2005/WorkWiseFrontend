@@ -222,7 +222,13 @@ img{
 .location{
     text-align: center;
 
-}#content-container {
+}
+
+#workspace-container:hover{
+    cursor: pointer;
+}
+
+#content-container {
     flex: 1;
 }
 

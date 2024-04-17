@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 
             // Create distance to transport element
             const distanceElement = document.createElement('p');
-            distanceElement.textContent = `Distance to Transport: ${workspace.distanceToTransport} km`;
+            distanceElement.textContent = `Distance to Transport: ${workspace.distanceToTransport} .min`;
             detailsElement.appendChild(distanceElement);
 
             // Append details element to workspace element

@@ -91,6 +91,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Initial total calculation
     calculateTotalPrice();
 
+    /*
     async function checkAuthentication() {
         try {
             const response = await fetch('/user/check-authentication');
@@ -101,6 +102,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             return false;
         }
     }
+    */
 
     const servicesElement = document.getElementById('services');
     const servicesList = document.createElement('ul');
@@ -131,13 +133,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Rent Now button click event listener
     document.getElementById('rentNow').addEventListener('click', async () => {
-
+/*
         const isAuthenticated = await checkAuthentication();
     if (!isAuthenticated) {
         // Redirect the user to the login page
         window.location.href = '/login.html';
         return;
     } 
+    */
     
         const startDate = document.querySelector('input[type="date"]').value;
         const endDate = document.querySelectorAll('input[type="date"]')[1].value;
@@ -150,7 +153,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             startTime,
             endTime,
             workspaceTitle,
-            userName // Include the username here
         };
         try {
             const response = await fetch('/bookings', {

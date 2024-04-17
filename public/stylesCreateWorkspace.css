@@ -65,7 +65,7 @@ body {
 
 .menu-list li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .menu-list li:last-child {
@@ -75,19 +75,19 @@ body {
 .menu-list li a {
     color: #000;
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .menu-list .login-link {
-    margin-right: -8px;
+    margin-right: -5px;
 }
 
 .menu-list .signup-link {
     color: #000;
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 400;
     padding-left: 15px;
     border-left: 1px solid #000;
 }
@@ -103,7 +103,7 @@ body {
 }
 
 .menu-list .a2 {
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 
 
@@ -155,8 +155,8 @@ body {
 .menu-list .signup-link {
     color: #000;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 500;
     padding-left: 15px;
     border-left: 1px solid #000;
 }
@@ -172,7 +172,7 @@ body {
 }
 
 .menu-list .a2 {
-    margin-right: 5rem;
+    margin-right: 4rem;
 }
 
 h1{

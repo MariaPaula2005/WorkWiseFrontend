@@ -108,6 +108,9 @@ body{
     background-color: #f0f0f0;
 }
 
+#workspace-container:hover{
+    cursor: pointer;
+}
 .workspace-container {
     margin-top: 20px;
 }
